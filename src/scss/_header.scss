@@ -1,0 +1,154 @@
+html {
+	//font-family: 'Kaushan Script', cursive;
+	font-family: 'Rubik', sans-serif; 
+	font-size: 10px;
+}
+
+//======VARIABLES=====
+//==========================
+
+$brown: #713d16;
+$blackText: #333;
+$kaushan: 'Kaushan Script', cursive;
+
+.header {
+	width: 100%;
+	height: 100vh;
+	background: url('../img/header__bg.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(96,59,17,0.66);
+	}
+}
+
+.header__navbar {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 6.5rem;
+	background: rgba(0,0,0,0.2);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__navcontainer {
+	box-sizing: border-box;
+	padding: 0 15px;
+	width: 1340px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+ 
+.header__navlogo {
+	font-size: 2.4rem;
+	color: #fff;
+	font-family: $kaushan;
+	flex: 1 1 40%;
+	text-transform: uppercase;
+}
+
+.navlogo__link {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s;
+
+	&:hover {
+		color: $brown;
+		transition: 0.3s;
+	}
+}
+
+.navbar__nav {
+	flex: 2 2 60%;
+	display: flex;
+	//width: 30%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar__link {
+	font-size: 1.8rem;
+	white-space: nowrap;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: 0.3s;
+
+	&:hover {
+		transition: 0.3s;
+		color: $brown;
+	}
+}
+
+.header__site-title {
+	position: relative;
+	z-index: 99;
+	font-size: 7.2rem;
+	font-family: $kaushan;
+	color: #fff;
+}
+
+.header__desc {
+	position: relative;
+	z-index: 99;
+	font-size: 2.4rem;
+	color: #fff;
+	max-width: 850px;
+	text-align: center;
+	margin: 7.2rem 0;
+}
+
+.header__scroll-down {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: none;
+	background: rgba(224,159,102,0.55);
+	position: relative;
+	z-index: 99;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+.arrow-ico {
+	width: 60%;
+	animation: moveArrow 1s alternate infinite;
+}
+
+.arrow {
+	fill: #fff;
+}
+
+@keyframes moveArrow {
+	from {
+		transform: translateY(-15px);
+	}
+
+	to {
+		transform: translateY(15px);
+	}
+}
+
+
+
