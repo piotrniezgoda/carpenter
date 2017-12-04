@@ -1,6 +1,6 @@
 html {
 	//font-family: 'Kaushan Script', cursive;
-	font-family: 'Rubik', sans-serif; 
+	font-family: 'Roboto', sans-serif; 
 	font-size: 10px;
 }
 
@@ -9,7 +9,9 @@ html {
 
 $brown: #713d16;
 $blackText: #333;
+$greyText: #3d3d3d;
 $kaushan: 'Kaushan Script', cursive;
+$mainFont: 'Roboto', sans-serif;
 
 .header {
 	width: 100%;
@@ -109,7 +111,7 @@ $kaushan: 'Kaushan Script', cursive;
 .header__desc {
 	position: relative;
 	z-index: 99;
-	font-size: 2.4rem;
+	font-size: 2rem;
 	color: #fff;
 	max-width: 850px;
 	text-align: center;
