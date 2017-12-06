@@ -1,0 +1,33 @@
+.footer {
+	margin-top: 121px;
+	height: 30px;
+	background: #9e6533;
+}
+
+.footer__text-group {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1340px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.footer__rights {
+	font-size: 1.2rem;
+}
+
+.footer__author {
+	font-size: 1rem;
+	& a {
+		color: #e09f66;
+		text-decoration: none;
+		text-transform: capitalize;
+		transition: 0.3s;
+		&:hover {
+			transition: 0.3s;
+			color: #E8C3A3;
+		}
+	}
+}
