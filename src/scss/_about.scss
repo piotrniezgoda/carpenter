@@ -32,6 +32,8 @@ flex-flow: column nowrap;
 	max-width: 850px;
 	text-align: center;
 	margin-top: 38px;
+	box-sizing: border-box;
+	padding: 0 10px;
 }
 
 .about__container {

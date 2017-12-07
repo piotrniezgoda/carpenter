@@ -6,9 +6,8 @@
 	display: block;
 	width: 68px;
 	height: 68px;
-	border-radius: 50%;
-	background: #e09f66;
 	margin: 62px auto 17px auto;
+	fill:#e09f66;
 }
 
 .service__icon--notop {
@@ -45,16 +44,32 @@
 	align-items: center;
 }
 
+.services__row {
+	display: flex;
+	border-bottom: solid 3px #f1f1f1;
+
+	&:first-child {
+
+		.services__service{
+			.service__icon {
+				margin: 0px auto 17px auto;
+			}
+		}
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+}
+
 .services__service {
 	flex: 1 1 50%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 0 60px;
-	border-bottom: solid 3px #f1f1f1;
+	//border-bottom: solid 3px #f1f1f1;
 	&:nth-child(2n) {
 		border-left: solid 3px #f1f1f1;
-	}
-	&:nth-last-child(-n+2) {
-		border-bottom: none;
 	}
 }

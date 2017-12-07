@@ -4,6 +4,13 @@ html {
 	font-size: 10px;
 }
 
+body {
+	position: relative;
+	left: 0;
+	overflow-X: hidden;
+	transition: 0.5s;
+}
+
 //======VARIABLES=====
 //==========================
 
@@ -71,7 +78,7 @@ $mainFont: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	transition: 0.3s;
-
+	text-align: center;
 	&:hover {
 		color: $brown;
 		transition: 0.3s;
@@ -109,6 +116,8 @@ $mainFont: 'Roboto', sans-serif;
 }
 
 .header__desc {
+	box-sizing: border-box;
+	padding: 0 10px;
 	position: relative;
 	z-index: 99;
 	font-size: 2rem;

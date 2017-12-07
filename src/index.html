@@ -12,10 +12,12 @@
 		<script src="js/photoswipe.js"></script>
 		<script src="js/photoswipe-ui-default.js"></script>
 		<script src="js/photoswipe-initial.js" async></script>
+		<script src="js/navigation.js" async></script>
 	</head>
 	<body>
 		<header class="header">
 			<nav class="header__navbar">
+				<button aria-controls="main-menu" aria-expanded="false" class="navbar__trigger">otwórz menu</button>
 				<div class="header__navcontainer">
 					<h1 class="header__navlogo"><a href="#" class="navlogo__link">wojciech malecki</a></h1>
 					<ul class="navbar__nav">
@@ -157,36 +159,42 @@
 				<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</header>
 			<div class="services__serv-container">
-				<article class="services__service">
-					<span class="service__icon service__icon--notop"></span>
-					<h3 class="service__title">schody</h3>
-					<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
-				<article class="services__service">
-					<span class="service__icon service__icon--notop"></span>
-					<h3 class="service__title">altanki</h3>
-					<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
-				<article class="services__service">
-					<span class="service__icon"></span>
-					<h3 class="service__title">stoły i krzesla</h3>
-					<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
-				<article class="services__service">
-					<span class="service__icon"></span>
-					<h3 class="service__title">balustrady</h3>
-					<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
-				<article class="services__service">
-					<span class="service__icon"></span>
-					<h3 class="service__title">okna i drzwi</h3>
-					<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
-				<article class="services__service">
-					<span class="service__icon"></span>
-					<h3 class="service__title">oraz wiele więcej</h3>
-					<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-				</article>
+				<div class="services__row">
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 68 67.97"><path d="M17.18,15.42h1.49a1.51,1.51,0,0,1,1.51,1.51v9.28H34a1.51,1.51,0,0,1,1.51,1.51V37H49.3a1.51,1.51,0,0,1,1.51,1.51V47.8H65.07A34,34,0,0,0,5.53,15.42Z"/><path d="M63.66,50.8H47.82V40H32.5V29.21H17.18V18.42H6.71a4.59,4.59,0,0,0-4.25,2.88,34,34,0,0,0,29.06,46.6c13.38.95,26.21-9.3,31.61-16.37C63.26,51.37,63.66,50.8,63.66,50.8Z"/></svg>
+						<h3 class="service__title">schody</h3>
+						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 67.75 68"><path d="M35.48,16.72,67.65,30A34,34,0,0,0,0,31.4L32.11,16.78A4.24,4.24,0,0,1,35.48,16.72Z"/><path d="M58.77,30.09v3.46a.18.18,0,0,0,.18.18H67l.07-.36L59,29.93A.18.18,0,0,0,58.77,30.09Z"/><path d="M46.69,33.72h8.9a.18.18,0,0,0,.18-.18V28.67a.18.18,0,0,0-.11-.16l-8.9-3.78a.18.18,0,0,0-.24.16v8.66A.18.18,0,0,0,46.69,33.72Z"/><path d="M58.77,57.17a33.86,33.86,0,0,0,9-20.21h-7a2,2,0,0,0-2,2Z"/><path d="M44.52,33.55V23.89a.18.18,0,0,0-.11-.16L35.51,20a.18.18,0,0,0-.24.16V33.55a.18.18,0,0,0,.18.18h8.9A.18.18,0,0,0,44.52,33.55Z"/><path d="M32.27,33.55V20.19A.18.18,0,0,0,32,20l-8.9,4.08a.18.18,0,0,0-.1.16v9.29a.18.18,0,0,0,.18.18h8.9A.18.18,0,0,0,32.27,33.55Z"/><path d="M9.39,30.39l-6.55,3a.18.18,0,0,0,.07.33H9.47a.18.18,0,0,0,.18-.18v-3A.18.18,0,0,0,9.39,30.39Z"/><path d="M55.77,39.64A2.67,2.67,0,0,0,53.09,37H15.32a2.67,2.67,0,0,0-2.67,2.67v20.9A34,34,0,0,0,55.77,60Z"/><path d="M21,33.55V25.34a.18.18,0,0,0-.25-.16l-8,3.68a.18.18,0,0,0-.1.16v4.54a.18.18,0,0,0,.18.18h8A.18.18,0,0,0,21,33.55Z"/><path d="M9.64,57.82V38.92a2,2,0,0,0-2-2H0A33.88,33.88,0,0,0,9.64,57.82Z"/></svg>
+						<h3 class="service__title">altanki</h3>
+						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+				</div>
+				<div class="services__row">
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 68 68"><path d="M58.08,55a2,2,0,0,0-2-2H45.34a2,2,0,0,0-2,2v.19H58.08Z"/><path d="M43.33,66.18a33.94,33.94,0,0,0,14-8h-14Z"/><path d="M22.7,51.52H12a2,2,0,0,0-2,2v.17H24.71v-.19A2,2,0,0,0,22.7,51.52Z"/><path d="M61.08,29.85V54.55A34,34,0,1,0,7,54.6V27.85c0-.49-.12-6.33-1-9a1.51,1.51,0,0,1,1.18-2A1.45,1.45,0,0,1,8.74,18,48.45,48.45,0,0,1,10,27.21V48.52H25.72a2,2,0,0,1,2,2V67.41a34.14,34.14,0,0,0,6.15.59V43.69H21.4a2,2,0,0,1-2-2v-.6a2,2,0,0,1,.05-.44H15.83a1.5,1.5,0,0,1,0-3h39a1.5,1.5,0,0,1,0,3H51.22a2,2,0,0,1,.05.44v.6a2,2,0,0,1-2,2H36.85V67.87a34.7,34.7,0,0,0,3.48-.47V52.51a2,2,0,0,1,2-2H58.08V29.21A48.45,48.45,0,0,1,59.3,20a1.45,1.45,0,0,1,1.57-1.08,1.51,1.51,0,0,1,1.18,2C61.2,23.52,61.08,29.36,61.08,29.85Z"/><path d="M10,58A34,34,0,0,0,24.71,66.7v-10H10Z"/></svg>
+						<h3 class="service__title">stoły i krzesla</h3>
+						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 68 67.96"><path d="M14.76,62c-.14-7.32-.08-14.63.47-22H12.65c.52,6.92.6,13.84.49,20.76C13.67,61.25,14.21,61.65,14.76,62Z"/><path d="M26.47,67.15a255.9,255.9,0,0,1,.34-27.07H24.23a253.5,253.5,0,0,1,.36,26.59Q25.52,66.94,26.47,67.15Z"/><path d="M32.29,68a260,260,0,0,1,.32-27.88H30a259.17,259.17,0,0,1,.32,27.72C31,67.87,31.63,67.92,32.29,68Z"/><path d="M67.85,37.08c.09-1,.15-2,.15-3.08A34,34,0,0,0,0,34c0,1,.05,2.06.15,3.08Z"/><path d="M3.22,48.46c.08-2.79.21-5.59.42-8.38H.55A33.75,33.75,0,0,0,3.22,48.46Z"/><path d="M8.91,56.94c0-5.62.11-11.24.53-16.86H6.85c.38,5,.53,10.05.54,15.08C7.88,55.77,8.38,56.37,8.91,56.94Z"/><path d="M20.62,65.26A246.8,246.8,0,0,1,21,40.08H18.44a243,243,0,0,1,.42,24.36C19.44,64.73,20,65,20.62,65.26Z"/><path  d="M61,54.62c0-4.85.17-9.69.53-14.54H59c.41,5.46.54,10.92.53,16.39Q60.3,55.57,61,54.62Z"/><path d="M64.77,40.08c.19,2.51.31,5,.39,7.52a33.74,33.74,0,0,0,2.29-7.52Z"/><path d="M55.27,60.52c-.1-6.81,0-13.62.5-20.44H53.19c.54,7.22.61,14.43.48,21.65Q54.48,61.14,55.27,60.52Z"/><path d="M43.83,66.55a252.92,252.92,0,0,1,.36-26.47H41.6a255.41,255.41,0,0,1,.34,27C42.58,66.9,43.21,66.74,43.83,66.55Z"/><path d="M49.56,64.23c-.2-8.05-.18-16.1.42-24.15H47.4a245.91,245.91,0,0,1,.41,25Q48.69,64.68,49.56,64.23Z"/><path d="M38.07,67.75a258.9,258.9,0,0,1,.32-27.67H35.81a259.82,259.82,0,0,1,.32,27.85C36.78,67.89,37.43,67.83,38.07,67.75Z"/></svg>
+						<h3 class="service__title">balustrady</h3>
+						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+				</div>
+				<div class="services__row">
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 67.93 68"><path d="M5.26,21.72H2.75a.7.7,0,0,0-.65.45A33.86,33.86,0,0,0,0,32.74a.7.7,0,0,0,.7.72H5.26a.69.69,0,0,0,.69-.69V22.41A.69.69,0,0,0,5.26,21.72Z"/><path d="M5.26,35.46H.74a.7.7,0,0,0-.7.74,33.83,33.83,0,0,0,2,9.42.7.7,0,0,0,.65.45H5.26a.69.69,0,0,0,.69-.69V36.14A.69.69,0,0,0,5.26,35.46Z"/><rect x="7.94" y="21.72" width="8.05" height="11.74" rx="0.69" ry="0.69"/><rect class="cls-1" x="7.94" y="35.46" width="8.05" height="10.61" rx="0.69" ry="0.69"/><path d="M63,46.07h2.24a.73.73,0,0,0,.69-.48,33.83,33.83,0,0,0,2-9.36.73.73,0,0,0-.73-.78H63a.73.73,0,0,0-.73.73v9.16A.73.73,0,0,0,63,46.07Z"/><path d="M63,33.46h4.2a.73.73,0,0,0,.73-.76A33.86,33.86,0,0,0,65.85,22.2a.73.73,0,0,0-.69-.47H63a.73.73,0,0,0-.73.73V32.73A.73.73,0,0,0,63,33.46Z"/><rect x="52.23" y="21.72" width="8.05" height="11.74" rx="0.76" ry="0.76"/><rect x="52.23" y="35.46" width="8.05" height="10.61" rx="0.73" ry="0.73"/><path d="M25.92,53.44H42a1.73,1.73,0,0,0,1.73-1.73V16.29A1.73,1.73,0,0,0,42,14.55H25.92a1.73,1.73,0,0,0-1.73,1.73V51.71A1.73,1.73,0,0,0,25.92,53.44ZM41.73,33.9a1,1,0,1,1-1-1A1,1,0,0,1,41.73,33.9ZM28.81,18.77H39.13a.9.9,0,0,1,.9.9v7.19a.9.9,0,0,1-.9.9H28.81a.9.9,0,0,1-.9-.9V19.67A.9.9,0,0,1,28.81,18.77Z"/><path d="M52.23,49h-3V18.77H64.36a34,34,0,0,0-60.79,0H18.94V49H3.46a34,34,0,0,0,61,0ZM46.71,12V56.4H21.23V11.6H46.71Z"/></svg>
+						<h3 class="service__title">okna i drzwi</h3>
+						<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+					<article class="services__service">
+						<svg class="service__icon" viewBox="0 0 68 68"><path d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0Zm.65,51H33.35a3.3,3.3,0,0,1,0-6.6h1.31a3.3,3.3,0,0,1,0,6.6ZM38,35.64a3.3,3.3,0,0,1-3.3,3.3H33.35a3.3,3.3,0,0,1-3.3-3.3V20.33a3.3,3.3,0,0,1,3.3-3.3h1.31a3.3,3.3,0,0,1,3.3,3.3Z"/></svg>
+						<h3 class="service__title">oraz wiele więcej</h3>
+						<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+					</article>
+				</div>
 			</div>
 		</section>
 		<section class="contact">

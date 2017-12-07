@@ -1,5 +1,10 @@
 .contact {
 	margin-top: 165px;
+	&::after {
+		content: " "; 
+    	display: block;
+    	clear: both;
+	}
 }
 
 .contact__background {
@@ -9,6 +14,11 @@
 	background: url('../img/contact__bg.jpg');
 	background-size: cover;
 	margin-top: 146px;
+	&::after {
+		content: " "; 
+    	display: block;
+    	clear: both;
+	}
 }
 
 .contact__wrapper {
