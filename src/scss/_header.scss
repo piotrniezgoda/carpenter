@@ -99,11 +99,33 @@ $mainFont: 'Roboto', sans-serif;
 	text-decoration: none;
 	text-transform: capitalize;
 	transition: 0.3s;
+	position: relative;
+	z-index: 999;
 
 	&:hover {
 		transition: 0.3s;
 		color: $brown;
 	}
+}
+
+.navbar__link--active{
+		color: #8B4C08;
+/*
+	&::after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 100%;
+	transform: translateX(-50%);
+	border-radius: 30px;
+	left: 50%;
+	width: 140%;
+	height: 2px;
+	background: #b3b3b3;
+	z-index: -1;
+}
+*/
+
 }
 
 .header__site-title {
@@ -158,6 +180,10 @@ $mainFont: 'Roboto', sans-serif;
 	to {
 		transform: translateY(15px);
 	}
+}
+
+.section {
+	outline: none;
 }
 
 
