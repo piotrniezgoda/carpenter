@@ -37,7 +37,7 @@ flex-flow: column nowrap;
 
 .about__container {
 	margin-top: 64px;
-	height: 543px;
+	min-height: 543px;
 	background: url('../img/about__bg.jpg');
 	background-position: center;
 	background-size: cover;
@@ -84,7 +84,7 @@ flex-flow: column nowrap;
 	font-size: 1.8rem;
 	width: 75%;
 	color: #fff;
-	line-height: 20px;
+	//line-height: 20px;
 }
 
 .newLine::before {
