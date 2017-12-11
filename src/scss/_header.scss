@@ -206,7 +206,9 @@ $mainFont: 'Roboto', sans-serif;
 	top: 80%;
 	left: 50%;
 	transform: translateX(-50%);
-	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .arrow-ico {

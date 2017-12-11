@@ -4,13 +4,16 @@
 		<meta charset="UTF-8">
 		<title>Wojciech Malecki - Usługi Stolarskie</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- build:css -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=latin-ext" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/photoswipe.css">
 		<link rel="stylesheet" href="css/default-skin.css">
-		<!-- <script src="js/navigation.js" async></script> -->
-		<script src="js/photoswipe-initial.js" async></script>
+		<!--endbuild -->
+		<script src="js/photoswipe-initial.js" defer></script>
+		<script src="js/navigation.js" defer></script>
 		<script src="js/photoswipe-ui-default.js" defer></script>
 		<script src="js/photoswipe.js" defer></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" defer></script>
@@ -38,11 +41,11 @@
 			</div>
 			<h2 class="header__site-title">Lorem Ipsum</h2>
 			<p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-			<button class="header__scroll-down" href="#about">
+			<span class="header__scroll-down" href="#about">
 			<svg class="arrow-ico" viewBox="0 0 129 129">
 				<path class="arrow" d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
 			</svg>
-			</button>
+			</span>
 		</header>
 		<section id="about" class="about section">
 			<header class="section__header">
@@ -63,45 +66,47 @@
 				<span class="section-header__line"></span>
 				<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</header>
-			<!--===============Gallery Start============================
-				========================================================
-			========================================================-->
+
+
+			<!--===============Gallery Start============================-->
+
+
 			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide0.jpg" itemprop="contentUrl" data-id="gallery_item" data-size="1500x1000">
 						<img src="img/slide0-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis pierwszego zdjęcia</figcaption>
 				</figure>
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide1.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide1.jpg" itemprop="thumbnail" alt="Image description" />
+						<img src="img/slide1-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis drugiego zdjęcia</figcaption>
 				</figure>
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide2.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide2.jpg" itemprop="thumbnail" alt="Image description" />
+						<img src="img/slide2-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis trzeciego zdjęcia</figcaption>
 				</figure>
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide3.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide3.jpg" itemprop="thumbnail" alt="Image description" />
+						<img src="img/slide3-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis czwartego zdjęcia</figcaption>
 				</figure>
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide4.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide4.jpg" itemprop="thumbnail" alt="Image description" />
+						<img src="img/slide4-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis piątego zdjęcia</figcaption>
 				</figure>
 				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 					<a class="gallery__item" href="img/slide5.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide5.jpg" itemprop="thumbnail" alt="Image description" />
+						<img src="img/slide5-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
 					</a>
-					<figcaption itemprop="caption description">Image caption</figcaption>
+					<figcaption itemprop="caption description">opis szóstego zdjęcia</figcaption>
 				</figure>
 			</div>
 			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -229,7 +234,6 @@
 				<p class="footer__rights">2017 All Rights Reserved &copy;</p>
 				<p class="footer__author">Design&Code <a href="https://piotrniezgoda.github.io/">piotr niezgoda</a></p>
 			</div>
-		</footer>
-		<script src="js/navigation.js"></script>
+		</footer>	
 	</body>
 </html>
