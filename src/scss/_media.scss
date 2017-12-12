@@ -139,3 +139,24 @@
 		font-size: 1.5rem;
 	}
 }
+
+@media (max-width: 390px) {
+	.footer {
+		height: 70px;
+	}
+	.footer__text-group {
+		flex-flow: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+	.header__site-title {
+		font-size: 4.2rem;
+	}
+	.header__desc {
+		font-size: 1.5rem;
+	}
+}

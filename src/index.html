@@ -18,222 +18,221 @@
 		<script src="js/photoswipe.js" defer></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" defer></script>
 		<script src="js/scroll.js" defer></script>
-
 	</head>
 	<body>
-		<header id="start" class="header section">
-			<nav id="main__menu" class="header__navbar">
-				<button aria-controls="main__menu" aria-expanded="false" class="navbar__trigger">otwórz menu</button>
-				<div class="header__navcontainer">
-					<h1 class="header__navlogo"><a href="#start" class="navlogo__link">wojciech malecki</a></h1>
-					<ul class="navbar__nav">
-						<li class="navbar__item"><a class="navbar__link navbar__link--active" href="#start">start</a></li>
-						<li class="navbar__item"><a class="navbar__link" href="#about">o mnie</a></li>
-						<li class="navbar__item"><a class="navbar__link" href="#portfolio">projekty</a></li>
-						<li class="navbar__item"><a class="navbar__link" href="#services">usługi</a></li>
-						<li class="navbar__item"><a class="navbar__link" href="#contact">kontakt</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="buttonsGroup">
-				<button aria-label="Powiększ tekst 1.5 razy" title="powiększenie tekstu" id="largeText" class="header__button-resizetext"><svg class="fontSizePlus-ico" viewBox="0 0 30.3 12.98"><path class="fontSizePlus-path" d="M7.73,9.81H3.19l-1,3H0L4.46,0h2l4.41,12.8H8.7ZM3.78,8H7.15L5.5,3H5.45Z"/><path d="M18,12.8q-.11-.36-.19-.7a5,5,0,0,1-.1-.69,3.66,3.66,0,0,1-1.15,1.12A3,3,0,0,1,15,13a3.16,3.16,0,0,1-2.28-.76,2.78,2.78,0,0,1-.8-2.1A2.48,2.48,0,0,1,13,8,5.26,5.26,0,0,1,16,7.2h1.66V6.36a1.55,1.55,0,0,0-.44-1.17A1.74,1.74,0,0,0,16,4.77a1.8,1.8,0,0,0-1.16.35,1.1,1.1,0,0,0-.43.9H12.35V6a2.36,2.36,0,0,1,1-2,4.26,4.26,0,0,1,2.78-.87A4.07,4.07,0,0,1,18.81,4a3,3,0,0,1,1,2.43v4.23a7.8,7.8,0,0,0,.08,1.13,6,6,0,0,0,.25,1.06Zm-2.61-1.53a2.67,2.67,0,0,0,1.45-.4,2,2,0,0,0,.86-.92V8.53H16A2.14,2.14,0,0,0,14.54,9,1.4,1.4,0,0,0,14,10.08a1.11,1.11,0,0,0,.36.87A1.48,1.48,0,0,0,15.39,11.27Z"/><path class="fontSizePlus-path" d="M27,5.76H30.3v2H27v3.81H24.89V7.71H21.53v-2h3.36V2.2H27Z"/></svg></button>
-				<button aria-label="Pomniejsz tekst 1.5 razy" title="pomniejszenie tekstu" id="smallText" class="header__button-resizetext"><svg class="fontSizeMinuslus-ico" viewBox="0 0 27.51 12.98"><path class="fontSizeMinuslus-path" d="M7.73,9.81H3.19l-1,3H0L4.46,0h2l4.41,12.8H8.7ZM3.78,8H7.15L5.5,3H5.45Z"/><path d="M18,12.8q-.11-.36-.19-.7a5,5,0,0,1-.1-.69,3.66,3.66,0,0,1-1.15,1.12A3,3,0,0,1,15,13a3.16,3.16,0,0,1-2.28-.76,2.78,2.78,0,0,1-.8-2.1A2.48,2.48,0,0,1,13,8,5.26,5.26,0,0,1,16,7.2h1.66V6.36a1.55,1.55,0,0,0-.44-1.17A1.74,1.74,0,0,0,16,4.77a1.8,1.8,0,0,0-1.16.35,1.1,1.1,0,0,0-.43.9H12.35V6a2.36,2.36,0,0,1,1-2,4.26,4.26,0,0,1,2.78-.87A4.07,4.07,0,0,1,18.81,4a3,3,0,0,1,1,2.43v4.23a7.8,7.8,0,0,0,.08,1.13,6,6,0,0,0,.25,1.06Zm-2.61-1.53a2.67,2.67,0,0,0,1.45-.4,2,2,0,0,0,.86-.92V8.53H16A2.14,2.14,0,0,0,14.54,9,1.4,1.4,0,0,0,14,10.08a1.11,1.11,0,0,0,.36.87A1.48,1.48,0,0,0,15.39,11.27Z"/><path class="fontSizeMinuslus-path" d="M27.51,8.22H22.32V6.5h5.19Z"/></svg></button>
-			</div>
-			<h2 class="header__site-title">Lorem Ipsum</h2>
-			<p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-			<span class="header__scroll-down" href="#about">
-			<svg class="arrow-ico" viewBox="0 0 129 129">
-				<path class="arrow" d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
-			</svg>
-			</span>
-		</header>
-		<section id="about" class="about section">
-			<header class="section__header">
-				<h2 class="section__title">o mnie</h2>
-				<span class="section-header__line"></span>
-			</header>
-			<div class="about__container">
-				<div class="about__text-container">
-					<h3 class="about__headtext">lorem ipsum...</h3>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<span class="newLine"></span>
-					<span class="newLine"></span>aliquip ex ea commodo consequat.</p>
-				</div>
-			</div>
-		</section>
-		<section id="portfolio" class="portfolio section">
-			<header class="section__header">
-				<h2 class="section__title">projekty</h2>
-				<span class="section-header__line"></span>
-				<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</header>
-
-
-			<!--===============Gallery Start============================-->
-
-
-			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide0.jpg" itemprop="contentUrl" data-id="gallery_item" data-size="1500x1000">
-						<img src="img/slide0-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis pierwszego zdjęcia</figcaption>
-				</figure>
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide1.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide1-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis drugiego zdjęcia</figcaption>
-				</figure>
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide2.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide2-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis trzeciego zdjęcia</figcaption>
-				</figure>
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide3.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide3-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis czwartego zdjęcia</figcaption>
-				</figure>
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide4.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide4-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis piątego zdjęcia</figcaption>
-				</figure>
-				<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-					<a class="gallery__item" href="img/slide5.jpg" itemprop="contentUrl" data-size="1500x1000">
-						<img src="img/slide5-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
-					</a>
-					<figcaption itemprop="caption description">opis szóstego zdjęcia</figcaption>
-				</figure>
-			</div>
-			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-				<!-- Background of PhotoSwipe.
-				It's a separate element as animating opacity is faster than rgba(). -->
-				<div class="pswp__bg"></div>
-				<!-- Slides wrapper with overflow:hidden. -->
-				<div class="pswp__scroll-wrap">
-					<!-- Container that holds slides.
-					PhotoSwipe keeps only 3 of them in the DOM to save memory.
-					Don't modify these 3 pswp__item elements, data is added later on. -->
-					<div class="pswp__container">
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
+		<div class="site-wrapper">
+			<div class="site-slide">
+				<header id="start" class="header section">
+					<nav id="main__menu" class="header__navbar">
+						<button aria-controls="main__menu" aria-expanded="false" class="navbar__trigger">otwórz menu</button>
+						<div class="header__navcontainer">
+							<h1 class="header__navlogo"><a href="#start" class="navlogo__link">wojciech malecki</a></h1>
+							<ul class="navbar__nav">
+								<li class="navbar__item"><a class="navbar__link navbar__link--active" href="#start">start</a></li>
+								<li class="navbar__item"><a class="navbar__link" href="#about">o mnie</a></li>
+								<li class="navbar__item"><a class="navbar__link" href="#portfolio">projekty</a></li>
+								<li class="navbar__item"><a class="navbar__link" href="#services">usługi</a></li>
+								<li class="navbar__item"><a class="navbar__link" href="#contact">kontakt</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="buttonsGroup">
+						<button aria-label="Powiększ tekst 1.5 razy" title="powiększenie tekstu" id="largeText" class="header__button-resizetext"><svg class="fontSizePlus-ico" viewBox="0 0 30.3 12.98"><path class="fontSizePlus-path" d="M7.73,9.81H3.19l-1,3H0L4.46,0h2l4.41,12.8H8.7ZM3.78,8H7.15L5.5,3H5.45Z"/><path d="M18,12.8q-.11-.36-.19-.7a5,5,0,0,1-.1-.69,3.66,3.66,0,0,1-1.15,1.12A3,3,0,0,1,15,13a3.16,3.16,0,0,1-2.28-.76,2.78,2.78,0,0,1-.8-2.1A2.48,2.48,0,0,1,13,8,5.26,5.26,0,0,1,16,7.2h1.66V6.36a1.55,1.55,0,0,0-.44-1.17A1.74,1.74,0,0,0,16,4.77a1.8,1.8,0,0,0-1.16.35,1.1,1.1,0,0,0-.43.9H12.35V6a2.36,2.36,0,0,1,1-2,4.26,4.26,0,0,1,2.78-.87A4.07,4.07,0,0,1,18.81,4a3,3,0,0,1,1,2.43v4.23a7.8,7.8,0,0,0,.08,1.13,6,6,0,0,0,.25,1.06Zm-2.61-1.53a2.67,2.67,0,0,0,1.45-.4,2,2,0,0,0,.86-.92V8.53H16A2.14,2.14,0,0,0,14.54,9,1.4,1.4,0,0,0,14,10.08a1.11,1.11,0,0,0,.36.87A1.48,1.48,0,0,0,15.39,11.27Z"/><path class="fontSizePlus-path" d="M27,5.76H30.3v2H27v3.81H24.89V7.71H21.53v-2h3.36V2.2H27Z"/></svg></button>
+						<button aria-label="Pomniejsz tekst 1.5 razy" title="pomniejszenie tekstu" id="smallText" class="header__button-resizetext"><svg class="fontSizeMinuslus-ico" viewBox="0 0 27.51 12.98"><path class="fontSizeMinuslus-path" d="M7.73,9.81H3.19l-1,3H0L4.46,0h2l4.41,12.8H8.7ZM3.78,8H7.15L5.5,3H5.45Z"/><path d="M18,12.8q-.11-.36-.19-.7a5,5,0,0,1-.1-.69,3.66,3.66,0,0,1-1.15,1.12A3,3,0,0,1,15,13a3.16,3.16,0,0,1-2.28-.76,2.78,2.78,0,0,1-.8-2.1A2.48,2.48,0,0,1,13,8,5.26,5.26,0,0,1,16,7.2h1.66V6.36a1.55,1.55,0,0,0-.44-1.17A1.74,1.74,0,0,0,16,4.77a1.8,1.8,0,0,0-1.16.35,1.1,1.1,0,0,0-.43.9H12.35V6a2.36,2.36,0,0,1,1-2,4.26,4.26,0,0,1,2.78-.87A4.07,4.07,0,0,1,18.81,4a3,3,0,0,1,1,2.43v4.23a7.8,7.8,0,0,0,.08,1.13,6,6,0,0,0,.25,1.06Zm-2.61-1.53a2.67,2.67,0,0,0,1.45-.4,2,2,0,0,0,.86-.92V8.53H16A2.14,2.14,0,0,0,14.54,9,1.4,1.4,0,0,0,14,10.08a1.11,1.11,0,0,0,.36.87A1.48,1.48,0,0,0,15.39,11.27Z"/><path class="fontSizeMinuslus-path" d="M27.51,8.22H22.32V6.5h5.19Z"/></svg></button>
 					</div>
-					<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-					<div class="pswp__ui pswp__ui--hidden">
-						<div class="pswp__top-bar">
-							<!--  Controls are self-explanatory. Order can be changed. -->
-							<div class="pswp__counter"></div>
-							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-							<button class="pswp__button pswp__button--share" title="Share"></button>
-							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-							<!-- element will get class pswp__preloader- -active when preloader is running -->
-							<div class="pswp__preloader">
-								<div class="pswp__preloader__icn">
-									<div class="pswp__preloader__cut">
-										<div class="pswp__preloader__donut"></div>
+					<h2 class="header__site-title">Lorem Ipsum</h2>
+					<p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+					<span class="header__scroll-down">
+						<svg class="arrow-ico" viewBox="0 0 129 129">
+							<path class="arrow" d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
+						</svg>
+					</span>
+				</header>
+				<section id="about" class="about section">
+					<header class="section__header">
+						<h2 class="section__title">o mnie</h2>
+						<span class="section-header__line"></span>
+					</header>
+					<div class="about__container">
+						<div class="about__text-container">
+							<h3 class="about__headtext">lorem ipsum...</h3>
+							<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<span class="newLine"></span>
+							<span class="newLine"></span>aliquip ex ea commodo consequat.</p>
+						</div>
+					</div>
+				</section>
+				<section id="portfolio" class="portfolio section">
+					<header class="section__header">
+						<h2 class="section__title">projekty</h2>
+						<span class="section-header__line"></span>
+						<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</header>
+					<!--===============Gallery Start============================-->
+					<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide0.jpg" itemprop="contentUrl" data-id="gallery_item" data-size="1500x1000">
+								<img src="img/slide0-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis pierwszego zdjęcia</figcaption>
+						</figure>
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide1.jpg" itemprop="contentUrl" data-size="1500x1000">
+								<img src="img/slide1-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis drugiego zdjęcia</figcaption>
+						</figure>
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide2.jpg" itemprop="contentUrl" data-size="1500x1000">
+								<img src="img/slide2-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis trzeciego zdjęcia</figcaption>
+						</figure>
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide3.jpg" itemprop="contentUrl" data-size="1500x1000">
+								<img src="img/slide3-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis czwartego zdjęcia</figcaption>
+						</figure>
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide4.jpg" itemprop="contentUrl" data-size="1500x1000">
+								<img src="img/slide4-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis piątego zdjęcia</figcaption>
+						</figure>
+						<figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="gallery__item" href="img/slide5.jpg" itemprop="contentUrl" data-size="1500x1000">
+								<img src="img/slide5-thumbnail.jpg" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">opis szóstego zdjęcia</figcaption>
+						</figure>
+					</div>
+					<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+						<!-- Background of PhotoSwipe.
+						It's a separate element as animating opacity is faster than rgba(). -->
+						<div class="pswp__bg"></div>
+						<!-- Slides wrapper with overflow:hidden. -->
+						<div class="pswp__scroll-wrap">
+							<!-- Container that holds slides.
+							PhotoSwipe keeps only 3 of them in the DOM to save memory.
+							Don't modify these 3 pswp__item elements, data is added later on. -->
+							<div class="pswp__container">
+								<div class="pswp__item"></div>
+								<div class="pswp__item"></div>
+								<div class="pswp__item"></div>
+							</div>
+							<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+							<div class="pswp__ui pswp__ui--hidden">
+								<div class="pswp__top-bar">
+									<!--  Controls are self-explanatory. Order can be changed. -->
+									<div class="pswp__counter"></div>
+									<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+									<button class="pswp__button pswp__button--share" title="Share"></button>
+									<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+									<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+									<!-- element will get class pswp__preloader- -active when preloader is running -->
+									<div class="pswp__preloader">
+										<div class="pswp__preloader__icn">
+											<div class="pswp__preloader__cut">
+												<div class="pswp__preloader__donut"></div>
+											</div>
+										</div>
 									</div>
+								</div>
+								<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+									<div class="pswp__share-tooltip"></div>
+								</div>
+								<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+								</button>
+								<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+								</button>
+								<div class="pswp__caption">
+									<div class="pswp__caption__center"></div>
 								</div>
 							</div>
 						</div>
-						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-							<div class="pswp__share-tooltip"></div>
+					</div>
+				</section>
+				<section id="services" class="services section">
+					<header class="section__header">
+						<h2 class="section__title">usługi</h2>
+						<span class="section-header__line"></span>
+						<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</header>
+					<div class="services__serv-container">
+						<div class="services__row">
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><path d="M34,0A34,34,0,1,0,49.15,64.44L40.82,53.82,34.06,56V54.31l31-10v1.68L50,50.84l-1.67,2.63,6.19,7.63A34,34,0,0,0,34,0ZM5.27,21.61l-.11-.77,4.52,1.28V23Zm-.18-1.29,28.51-1.75,5.62.88L10.07,21.61Zm5.66,10-.16-.93,5.7,2.11V32.7Zm-.22-1.54,9.71-1L16.1,22.57,10.43,23v-.91l28.78-2v.53L26.3,21.71l-2,3.79,1.47,1.71,15.48-1.63,5.35,1.29-30,4.06Zm13.92,14.3-6.51-3-.23-1.08,6.74,2.83Zm-6.74-4.6,9.65-1.72-3.94-5-6.38.9V31.52l29.59-4.13v1.14L33,30.45l-1.65,3.27,1.76,2,14.1-2.51,7.39,2L35.5,39.19l-5.38,1.1h0l-5.28,1.08ZM33.31,56,25.72,52.2l-.3-1.48,7.89,3.59Zm.38-2.25-8.26-3.58,10.29-2.8-4.46-5.64-6.07,1.39V41.9l29.44-6v.74l-13.79,3L39.32,43l2.38,2.77,16.07-4.37,7.31,2.26Z"/></svg>
+								<h3 class="service__title">schody</h3>
+								<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><g data-name="Warstwa 1"><polygon class="cls-1" points="16.47 38.54 27.86 38.07 27.86 31.36 16.47 31.36 16.47 38.54"/><polygon class="cls-1" points="14.46 38.62 14.95 38.6 14.95 31.36 14.46 31.36 14.46 38.62"/><polygon class="cls-1" points="34.78 31.36 28.96 31.36 28.95 38.02 34.82 37.78 34.78 31.36"/><polygon class="cls-1" points="34.82 38.35 28.95 38.62 28.95 41.97 34.85 42.37 34.82 38.35"/><polygon class="cls-1" points="11.05 41.34 14.95 41.34 14.95 39.28 14.46 39.3 11.05 41.34"/><polygon class="cls-1" points="13.31 31.36 11.05 31.36 11.05 40.21 13.54 38.66 13.31 31.36"/><polygon class="cls-1" points="11.05 42.91 14.95 42.86 14.95 42.32 11.05 42.32 11.05 42.91"/><polygon class="cls-1" points="28.95 43.19 28.95 43.85 34.86 44.17 34.85 43.53 28.95 43.19"/><path class="cls-1" d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0ZM63.61,29.47l-27.34.85L34.21,12.66ZM33.83,12.54l1.83,17.78H5.7ZM63.61,30.32,60,30.46V49.69l-1.34.3h0l-23,2.86-6.71-.61-1.08-.18V38.67l-11.39.54V50.6H15l-5-.26v-19H5.7v-.61h30v7l.55,0,16.38.65V30.74l-16.29.62v-.61l27.31-1Z"/><polygon class="cls-1" points="58.62 30.51 53.65 30.7 53.47 38.66 58.62 40.32 58.62 30.51"/><polygon class="cls-1" points="52.59 38.78 36.45 38.27 35.66 38.31 35.66 42.47 58.57 40.92 52.59 38.78"/><polygon class="cls-1" points="35.66 44.34 58.62 42.5 58.62 41.97 35.66 43.58 35.66 44.34"/></g></svg>
+								<h3 class="service__title">altanki</h3>
+								<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
 						</div>
-						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-						</button>
-						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-						</button>
-						<div class="pswp__caption">
-							<div class="pswp__caption__center"></div>
+						<div class="services__row">
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><defs><style>.cls-1{fill:#e09f66;}</style></defs><title>table-ico</title><g id="Warstwa_2" data-name="Warstwa 2"><g data-name="Warstwa 1"><path class="cls-1" d="M45.6,14.89c-.46,0-.95-.08-1.46-.09v7.72h1Z"/><path class="cls-1" d="M40.94,14.81l-1.24.05v7.65h1.24Z"/><rect class="cls-1" x="37.76" y="24.53" width="7.33" height="2"/><path class="cls-1" d="M43.21,14.78H41.87v7.73h1.34Z"/><path class="cls-1" d="M38.77,14.91,37.25,15l.48,7.49h1Z"/><path class="cls-1" d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0Zm6.42,56.73-.92,1L37,57.16V42.78l-12-3.62v3.08l-1.23,1.14-2.27-1.14V38.11L14.39,36V49.24L13.24,50l-2-.57-.51-14.5-.46-.14,0-1.2,30.16,8.7Zm12.45-7.06-1,1.28-2.41-.7V38.91l-7.86,4.55v-1.2l11.31-6.35ZM41,41.54,10.27,32.62l12.82-6.13L35.75,30.1V24.53H35v-2h1.82l-.47-7.42-.8.08V12.48c4.55-1.07,11.83,0,11.83,0v2.69a7.88,7.88,0,0,0-.81-.17l-.47,7.51h1.79v2h-.74v7.74h-2V27.46H37.76v3.21L52.87,35Z"/></g></g></svg>
+								<h3 class="service__title">stoły i krzesla</h3>
+								<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><defs><style>.cls-1{fill:#e09f66;}</style></defs><title>balustrade-ico</title><g data-name="Warstwa 2"><g data-name="Warstwa 1"><path class="cls-1" d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0ZM8.2,19.55H59.8v.61H8.2ZM59.8,48.45H8.2v-.86H9.54V46h6v1.6h1.15V46h6v1.6H23.9V46h6v1.6h1.15V46h6v1.6h1.15V46h6v1.6h1.15V46h6v1.6h1.15V46h6v1.6H59.8ZM10.2,39.89a59.18,59.18,0,0,0,1.34-8.14h1.9a59.16,59.16,0,0,0,1.34,8.14,2,2,0,0,1-1.53,2.84H11.66v0A2,2,0,0,1,10.2,39.89ZM11.12,43h2.76a5.47,5.47,0,0,0,1.27,2.67H9.89A5.19,5.19,0,0,0,11.12,43Zm6.26-3.11a59.18,59.18,0,0,0,1.34-8.14h1.9A59.16,59.16,0,0,0,22,39.89a2,2,0,0,1-1.53,2.84H18.84v0A2,2,0,0,1,17.38,39.89ZM18.31,43h2.76a5.47,5.47,0,0,0,1.27,2.67H17.08A5.19,5.19,0,0,0,18.31,43Zm6.26-3.11a59.2,59.2,0,0,0,1.34-8.14h1.9a59.16,59.16,0,0,0,1.34,8.14,2,2,0,0,1-1.53,2.84H26v0A2,2,0,0,1,24.57,39.89ZM25.49,43h2.76a5.47,5.47,0,0,0,1.27,2.67H24.26A5.19,5.19,0,0,0,25.49,43Zm6.26-3.11a59.2,59.2,0,0,0,1.34-8.14H35a59.18,59.18,0,0,0,1.34,8.14,2,2,0,0,1-1.53,2.84H33.21v0A2,2,0,0,1,31.75,39.89ZM32.67,43h2.76a5.47,5.47,0,0,0,1.27,2.67H31.45A5.19,5.19,0,0,0,32.67,43Zm6.26-3.11a59.2,59.2,0,0,0,1.34-8.14h1.9a59.18,59.18,0,0,0,1.34,8.14A2,2,0,0,1,42,42.73H40.39v0A2,2,0,0,1,38.94,39.89ZM39.86,43h2.76a5.47,5.47,0,0,0,1.27,2.67H38.63A5.19,5.19,0,0,0,39.86,43Zm6.26-3.11a59.2,59.2,0,0,0,1.34-8.14h1.9a59.18,59.18,0,0,0,1.34,8.14,2,2,0,0,1-1.53,2.84H47.58v0A2,2,0,0,1,46.12,39.89ZM47,43H49.8a5.47,5.47,0,0,0,1.27,2.67H45.81A5.19,5.19,0,0,0,47,43Zm6.26-3.11a59.18,59.18,0,0,0,1.34-8.14h1.9a59.18,59.18,0,0,0,1.34,8.14,2,2,0,0,1-1.53,2.84H54.76v0A2,2,0,0,1,53.3,39.89ZM54.23,43H57a5.47,5.47,0,0,0,1.27,2.67H53A5.19,5.19,0,0,0,54.23,43Zm4.2-19.53v1.28A1.35,1.35,0,0,0,57,26h-.6l.22,5.39h-2V26H54c-.05-1.07-1.38-1.13-1.38-1.13V23.46h-1.4v1.28A1.35,1.35,0,0,0,49.8,26h-.6l.22,5.39h-2V26h-.63c-.05-1.07-1.38-1.13-1.38-1.13V23.46h-1.4v1.28A1.35,1.35,0,0,0,42.62,26H42l.22,5.39h-2V26h-.63c-.05-1.07-1.38-1.13-1.38-1.13V23.46h-1.4v1.28A1.35,1.35,0,0,0,35.44,26h-.6l.22,5.39h-2V26h-.63c-.05-1.07-1.38-1.13-1.38-1.13V23.46h-1.4v1.28A1.35,1.35,0,0,0,28.25,26h-.6l.22,5.39h-2V26h-.63c-.05-1.07-1.38-1.13-1.38-1.13V23.46H22.5v1.28A1.35,1.35,0,0,0,21.07,26h-.6l.22,5.39h-2V26H18.1c-.05-1.07-1.38-1.13-1.38-1.13V23.46h-1.4v1.28A1.35,1.35,0,0,0,13.88,26h-.6l.22,5.39h-2V26h-.63c-.05-1.07-1.38-1.13-1.38-1.13V23.46H8.2V20.91H59.8v2.56Z"/></g></g></svg>
+								<h3 class="service__title">balustrady</h3>
+								<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
+						</div>
+						<div class="services__row">
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><defs><style>.cls-1{fill:#e09f66;}</style></defs><title>doors-ico</title><g data-name="Warstwa 2"><g data-name="Warstwa 1"><path class="cls-1" d="M20.21,52.64h14V16.83h-14ZM27.31,21h5.27v6.15H27.31Zm0,7h5.27v6.15H27.31Zm0,7h5.27v6.15H27.31Zm0,7h5.27v6.15H27.31ZM21.45,21h5v6.15h-5Zm0,7h5v6.15h-5Zm0,7h5v6.15h-5Zm0,7h5v6.15h-5Z"/><path class="cls-1" d="M37.88,34h-2.4a.33.33,0,0,0,0,.67h2.4a.33.33,0,1,0,0-.67Z"/><path class="cls-1" d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0ZM54.09,56.62H13.91V53.57h1V11.38H53.26v42.2h.82Z"/><polygon class="cls-1" points="15.94 53.07 19.21 53.07 19.21 15.82 49.2 15.82 49.2 53.07 52.27 53.07 52.27 12.38 15.94 12.38 15.94 53.07"/></g></g></svg>
+								<h3 class="service__title">okna i drzwi</h3>
+								<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
+							<article class="services__service">
+								<svg class="service__icon" viewBox="0 0 68 68"><path d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0ZM46.11,40.23h4.08l-1.6,1.37v2.54H47.41V41.54Zm2.48-8.64-4.5,4.63-2.36-2.36,4.47-4.62Zm-23,8L13.38,51.81a2.24,2.24,0,0,1-3.17,0L8.66,50.26a2.24,2.24,0,0,1,0-3.17L20.88,34.86a2.23,2.23,0,0,1,2.38-.5l2.84,2.84A2,2,0,0,1,25.6,39.58Zm7.88-9.26a46.36,46.36,0,0,1-3.73,3.39l-2.93,2.71L24,33.61l.09-.11,6.83-7.62s2.08-3.16-.41-5.63a7.09,7.09,0,0,0-4.84-2.37s4.12-4.09,7.85-1.8,6.84,3.63,10.06,11.47l1.85,1L41,33.16l-.92-1.85S36.82,27.16,33.48,30.32Zm14.67,22.3-.67-2.44h1.11ZM58,49.32H38.06a2,2,0,0,1-2-2v-.12a2,2,0,0,1,2-2H58a2,2,0,0,1,2,2v.12A2,2,0,0,1,58,49.32Z"/></svg>
+								<h3 class="service__title">oraz wiele więcej</h3>
+								<p class="service__sub service__sub--nobot service__sub-fixbot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							</article>
 						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section id="services" class="services section">
-			<header class="section__header">
-				<h2 class="section__title">usługi</h2>
-				<span class="section-header__line"></span>
-				<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</header>
-			<div tab-index="1" class="services__serv-container">
-				<div class="services__row">
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 68 67.97"><path d="M17.18,15.42h1.49a1.51,1.51,0,0,1,1.51,1.51v9.28H34a1.51,1.51,0,0,1,1.51,1.51V37H49.3a1.51,1.51,0,0,1,1.51,1.51V47.8H65.07A34,34,0,0,0,5.53,15.42Z"/><path d="M63.66,50.8H47.82V40H32.5V29.21H17.18V18.42H6.71a4.59,4.59,0,0,0-4.25,2.88,34,34,0,0,0,29.06,46.6c13.38.95,26.21-9.3,31.61-16.37C63.26,51.37,63.66,50.8,63.66,50.8Z"/></svg>
-						<h3 class="service__title">schody</h3>
-						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 67.75 68"><path d="M35.48,16.72,67.65,30A34,34,0,0,0,0,31.4L32.11,16.78A4.24,4.24,0,0,1,35.48,16.72Z"/><path d="M58.77,30.09v3.46a.18.18,0,0,0,.18.18H67l.07-.36L59,29.93A.18.18,0,0,0,58.77,30.09Z"/><path d="M46.69,33.72h8.9a.18.18,0,0,0,.18-.18V28.67a.18.18,0,0,0-.11-.16l-8.9-3.78a.18.18,0,0,0-.24.16v8.66A.18.18,0,0,0,46.69,33.72Z"/><path d="M58.77,57.17a33.86,33.86,0,0,0,9-20.21h-7a2,2,0,0,0-2,2Z"/><path d="M44.52,33.55V23.89a.18.18,0,0,0-.11-.16L35.51,20a.18.18,0,0,0-.24.16V33.55a.18.18,0,0,0,.18.18h8.9A.18.18,0,0,0,44.52,33.55Z"/><path d="M32.27,33.55V20.19A.18.18,0,0,0,32,20l-8.9,4.08a.18.18,0,0,0-.1.16v9.29a.18.18,0,0,0,.18.18h8.9A.18.18,0,0,0,32.27,33.55Z"/><path d="M9.39,30.39l-6.55,3a.18.18,0,0,0,.07.33H9.47a.18.18,0,0,0,.18-.18v-3A.18.18,0,0,0,9.39,30.39Z"/><path d="M55.77,39.64A2.67,2.67,0,0,0,53.09,37H15.32a2.67,2.67,0,0,0-2.67,2.67v20.9A34,34,0,0,0,55.77,60Z"/><path d="M21,33.55V25.34a.18.18,0,0,0-.25-.16l-8,3.68a.18.18,0,0,0-.1.16v4.54a.18.18,0,0,0,.18.18h8A.18.18,0,0,0,21,33.55Z"/><path d="M9.64,57.82V38.92a2,2,0,0,0-2-2H0A33.88,33.88,0,0,0,9.64,57.82Z"/></svg>
-						<h3 class="service__title">altanki</h3>
-						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-				</div>
-				<div class="services__row">
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 68 68"><path d="M58.08,55a2,2,0,0,0-2-2H45.34a2,2,0,0,0-2,2v.19H58.08Z"/><path d="M43.33,66.18a33.94,33.94,0,0,0,14-8h-14Z"/><path d="M22.7,51.52H12a2,2,0,0,0-2,2v.17H24.71v-.19A2,2,0,0,0,22.7,51.52Z"/><path d="M61.08,29.85V54.55A34,34,0,1,0,7,54.6V27.85c0-.49-.12-6.33-1-9a1.51,1.51,0,0,1,1.18-2A1.45,1.45,0,0,1,8.74,18,48.45,48.45,0,0,1,10,27.21V48.52H25.72a2,2,0,0,1,2,2V67.41a34.14,34.14,0,0,0,6.15.59V43.69H21.4a2,2,0,0,1-2-2v-.6a2,2,0,0,1,.05-.44H15.83a1.5,1.5,0,0,1,0-3h39a1.5,1.5,0,0,1,0,3H51.22a2,2,0,0,1,.05.44v.6a2,2,0,0,1-2,2H36.85V67.87a34.7,34.7,0,0,0,3.48-.47V52.51a2,2,0,0,1,2-2H58.08V29.21A48.45,48.45,0,0,1,59.3,20a1.45,1.45,0,0,1,1.57-1.08,1.51,1.51,0,0,1,1.18,2C61.2,23.52,61.08,29.36,61.08,29.85Z"/><path d="M10,58A34,34,0,0,0,24.71,66.7v-10H10Z"/></svg>
-						<h3 class="service__title">stoły i krzesla</h3>
-						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 68 67.96"><path d="M14.76,62c-.14-7.32-.08-14.63.47-22H12.65c.52,6.92.6,13.84.49,20.76C13.67,61.25,14.21,61.65,14.76,62Z"/><path d="M26.47,67.15a255.9,255.9,0,0,1,.34-27.07H24.23a253.5,253.5,0,0,1,.36,26.59Q25.52,66.94,26.47,67.15Z"/><path d="M32.29,68a260,260,0,0,1,.32-27.88H30a259.17,259.17,0,0,1,.32,27.72C31,67.87,31.63,67.92,32.29,68Z"/><path d="M67.85,37.08c.09-1,.15-2,.15-3.08A34,34,0,0,0,0,34c0,1,.05,2.06.15,3.08Z"/><path d="M3.22,48.46c.08-2.79.21-5.59.42-8.38H.55A33.75,33.75,0,0,0,3.22,48.46Z"/><path d="M8.91,56.94c0-5.62.11-11.24.53-16.86H6.85c.38,5,.53,10.05.54,15.08C7.88,55.77,8.38,56.37,8.91,56.94Z"/><path d="M20.62,65.26A246.8,246.8,0,0,1,21,40.08H18.44a243,243,0,0,1,.42,24.36C19.44,64.73,20,65,20.62,65.26Z"/><path  d="M61,54.62c0-4.85.17-9.69.53-14.54H59c.41,5.46.54,10.92.53,16.39Q60.3,55.57,61,54.62Z"/><path d="M64.77,40.08c.19,2.51.31,5,.39,7.52a33.74,33.74,0,0,0,2.29-7.52Z"/><path d="M55.27,60.52c-.1-6.81,0-13.62.5-20.44H53.19c.54,7.22.61,14.43.48,21.65Q54.48,61.14,55.27,60.52Z"/><path d="M43.83,66.55a252.92,252.92,0,0,1,.36-26.47H41.6a255.41,255.41,0,0,1,.34,27C42.58,66.9,43.21,66.74,43.83,66.55Z"/><path d="M49.56,64.23c-.2-8.05-.18-16.1.42-24.15H47.4a245.91,245.91,0,0,1,.41,25Q48.69,64.68,49.56,64.23Z"/><path d="M38.07,67.75a258.9,258.9,0,0,1,.32-27.67H35.81a259.82,259.82,0,0,1,.32,27.85C36.78,67.89,37.43,67.83,38.07,67.75Z"/></svg>
-						<h3 class="service__title">balustrady</h3>
-						<p class="service__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-				</div>
-				<div class="services__row">
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 67.93 68"><path d="M5.26,21.72H2.75a.7.7,0,0,0-.65.45A33.86,33.86,0,0,0,0,32.74a.7.7,0,0,0,.7.72H5.26a.69.69,0,0,0,.69-.69V22.41A.69.69,0,0,0,5.26,21.72Z"/><path d="M5.26,35.46H.74a.7.7,0,0,0-.7.74,33.83,33.83,0,0,0,2,9.42.7.7,0,0,0,.65.45H5.26a.69.69,0,0,0,.69-.69V36.14A.69.69,0,0,0,5.26,35.46Z"/><rect x="7.94" y="21.72" width="8.05" height="11.74" rx="0.69" ry="0.69"/><rect class="cls-1" x="7.94" y="35.46" width="8.05" height="10.61" rx="0.69" ry="0.69"/><path d="M63,46.07h2.24a.73.73,0,0,0,.69-.48,33.83,33.83,0,0,0,2-9.36.73.73,0,0,0-.73-.78H63a.73.73,0,0,0-.73.73v9.16A.73.73,0,0,0,63,46.07Z"/><path d="M63,33.46h4.2a.73.73,0,0,0,.73-.76A33.86,33.86,0,0,0,65.85,22.2a.73.73,0,0,0-.69-.47H63a.73.73,0,0,0-.73.73V32.73A.73.73,0,0,0,63,33.46Z"/><rect x="52.23" y="21.72" width="8.05" height="11.74" rx="0.76" ry="0.76"/><rect x="52.23" y="35.46" width="8.05" height="10.61" rx="0.73" ry="0.73"/><path d="M25.92,53.44H42a1.73,1.73,0,0,0,1.73-1.73V16.29A1.73,1.73,0,0,0,42,14.55H25.92a1.73,1.73,0,0,0-1.73,1.73V51.71A1.73,1.73,0,0,0,25.92,53.44ZM41.73,33.9a1,1,0,1,1-1-1A1,1,0,0,1,41.73,33.9ZM28.81,18.77H39.13a.9.9,0,0,1,.9.9v7.19a.9.9,0,0,1-.9.9H28.81a.9.9,0,0,1-.9-.9V19.67A.9.9,0,0,1,28.81,18.77Z"/><path d="M52.23,49h-3V18.77H64.36a34,34,0,0,0-60.79,0H18.94V49H3.46a34,34,0,0,0,61,0ZM46.71,12V56.4H21.23V11.6H46.71Z"/></svg>
-						<h3 class="service__title">okna i drzwi</h3>
-						<p class="service__sub service__sub--nobot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-					<article class="services__service">
-						<svg class="service__icon" viewBox="0 0 68 68"><path d="M34,0A34,34,0,1,0,68,34,34,34,0,0,0,34,0Zm.65,51H33.35a3.3,3.3,0,0,1,0-6.6h1.31a3.3,3.3,0,0,1,0,6.6ZM38,35.64a3.3,3.3,0,0,1-3.3,3.3H33.35a3.3,3.3,0,0,1-3.3-3.3V20.33a3.3,3.3,0,0,1,3.3-3.3h1.31a3.3,3.3,0,0,1,3.3,3.3Z"/></svg>
-						<h3 class="service__title">oraz wiele więcej</h3>
-						<p class="service__sub service__sub--nobot service__sub-fixbot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-					</article>
-				</div>
-			</div>
-		</section>
-		<section id="contact" class="contact section">
-			<header class="section__header">
-				<h2 class="section__title">kontakt</h2>
-				<span class="section-header__line"></span>
-				<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</header>
-			<div class="contact__wrapper">
-				<form class="contact__form" id="contact" name="contact" accept-charset="utf-8">
-					<h4 class="contact__option-title form-title">wyślij wiadomość</h4>
-					<label class="contact__label" for="name">Imię</label>
-					<input title="wpisz imię" class="form__input" id="name" name="name" type="text" required placeholder="Imię"/>
-					<label class="contact__label" for="email">Email</label>
-					<input title="wpisz email" class="form__input" id="email" name="email" type="email" required placeholder="Email"/>
-					<label class="contact__label" for="message">Wiadomość</label>
-					<textarea title="tu wpisz swoją wiadomość" class="textarea" id="message" name="message" required placeholder="Wiadomość..."></textarea>
-					<button title="wyślij" class="form__submit" type="submit">wyślij</button>
-				</form>
-				<div class="contact__details-wrapper">
-					<h4 class="contact__option-title contact__option-details">lub skontaktuj się bezpośrednio</h4>
-					<div class="details__group">
-						<ul class="contact__list">
-							<li class="list__item">123 456 789</li>
-							<li class="list__item">exampleemail@gmail.com</li>
-						</ul>
+				</section>
+				<section id="contact" class="contact section">
+					<header class="section__header">
+						<h2 class="section__title">kontakt</h2>
+						<span class="section-header__line"></span>
+						<p class="section__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</header>
+					<div class="contact__wrapper">
+						<form class="contact__form" id="contact-form" name="contact" accept-charset="utf-8">
+							<h4 class="contact__option-title form-title">wyślij wiadomość</h4>
+							<label class="contact__label" for="name">Imię</label>
+							<input title="wpisz imię" class="form__input" id="name" name="name" type="text" required placeholder="Imię"/>
+							<label class="contact__label" for="email">Email</label>
+							<input title="wpisz email" class="form__input" id="email" name="email" type="email" required placeholder="Email"/>
+							<label class="contact__label" for="message">Wiadomość</label>
+							<textarea title="tu wpisz swoją wiadomość" class="textarea" id="message" name="message" required placeholder="Wiadomość..."></textarea>
+							<button title="wyślij" class="form__submit" type="submit">wyślij</button>
+						</form>
+						<div class="contact__details-wrapper">
+							<h4 class="contact__option-title contact__option-details">lub skontaktuj się bezpośrednio</h4>
+							<div class="details__group">
+								<ul class="contact__list">
+									<li class="list__item list__item-phone">123 456 789</li>
+									<li class="list__item list__item-email">exampleemail@gmail.com</li>
+								</ul>
+							</div>
+							
+						</div>
 					</div>
-					
-				</div>
+				</section>
+				<footer class="footer">
+					<div class="footer__text-group">
+						<p class="footer__rights">2017 All Rights Reserved &copy;</p>
+						<p class="footer__author">Design&Code <a href="https://piotrniezgoda.github.io/">piotr niezgoda</a></p>
+					</div>
+				</footer>
 			</div>
-		</section>
-		<footer class="footer">
-			<div class="footer__text-group">
-				<p class="footer__rights">2017 All Rights Reserved &copy;</p>
-				<p class="footer__author">Design&Code <a href="https://piotrniezgoda.github.io/">piotr niezgoda</a></p>
-			</div>
-		</footer>	
+		</div>
 	</body>
 </html>

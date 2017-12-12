@@ -4,15 +4,22 @@ html {
 	font-size: 10px;
 }
 
-body {
-	position: relative;
-	left: 0;
-	overflow-X: hidden;
-	transition: 0.5s;
-}
-
 .text2x {
 	font-size: 15px;
+}
+
+.site-wrapper {
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+	overflow-X:hidden;
+}
+
+.site-slide {
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+	overflow-X:hidden;
 }
 
 //======VARIABLES=====

@@ -3,7 +3,7 @@ const showHideButton = document.querySelector('.navbar__trigger');
 const plusSizebtn = document.querySelector('#largeText');
 const minusSizebtn = document.querySelector('#smallText');
 const menu = document.querySelector('.header__navbar');
-const body = document.querySelector('body');
+const wrapper = document.querySelector('.site-slide');
 let scrollpos = window.scrollY;
 var width = window.innerWidth 
 || document.documentElement.clientWidth 
@@ -17,7 +17,7 @@ function showMenu() {
     menuLinks[i].removeAttribute("tabIndex", "-1");
   }
 	menu.classList.add('header__navbar-slide');
-	body.classList.add('body-slide');
+	wrapper.classList.add('body-slide');
   showHideButton.innerHTML = 'Zamknij menu';
   showHideButton.setAttribute('aria-expanded', 'true');
   menu.classList.remove('main-menu__items--hidden');
@@ -38,7 +38,7 @@ function hideMenu() {
     menuLinks[i].setAttribute("tabIndex", "-1");
   }
 	menu.classList.remove('header__navbar-slide');
-	body.classList.remove('body-slide');
+	wrapper.classList.remove('body-slide');
   showHideButton.setAttribute('aria-expanded', 'false');
   showHideButton.innerHTML = 'Otwórz menu';
   menu.classList.add('main-menu__items--hidden');

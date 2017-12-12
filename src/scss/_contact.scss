@@ -98,15 +98,29 @@
 	color: #fff;
 	font-size: 2rem;
 	margin: 10px 0;
+}
 
-	&::before {
+.list__item-phone::before {
 		display: inline-block;
 		content: '';
 		width: 34px;
 		height: 34px;
 		border-radius: 50%;
-		background: #fff;
+		background: url('../img/phone-ico.svg');
+		background-size: 100%;
 		transform: translateY(32%);
 		margin: 0 15px 0 30px;
-	}
+		background-size: 34px 34px;
+}
+
+.list__item-email::before {
+		display: inline-block;
+		content: '';
+		width: 34px;
+		height: 34px;
+		border-radius: 50%;
+		background: url('../img/email-ico.svg');
+		background-size: 100%;
+		transform: translateY(32%);
+		margin: 0 15px 0 30px;
 }
