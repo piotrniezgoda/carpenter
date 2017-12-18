@@ -16,10 +16,10 @@
 	//height: 50%;
 	//height: auto;
 	display: block;
-	transition: 0.5s;
+	transition: 1s;
 
 	&:hover {
-		transition: 1s;
+		transition: 4s;
 		transform: scale(1.2);
 	}
 }
